@@ -1,6 +1,0 @@
-include_rules = [
-  "+xwalk/test",
-
-  # For "browser tests" we run entire Crosswalk system.
-  "+xwalk/runtime"
-]

@@ -1,3 +1,0 @@
-include_rules = [
-  "+grit/xwalk_application_resources.h"
-]
