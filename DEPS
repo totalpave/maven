@@ -4,7 +4,7 @@ vars = {
 
     'chromium_git': 'https://chromium.googlesource.com',
     'totalpave_github': 'https://github.com/totalpave',
-    'totalpave_git': 'ssh://totalpave/opt/git/'
+    'totalpave_git': 'ssh://totalpave/opt/git/',
 
 # REVISIONS
 
