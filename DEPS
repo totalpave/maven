@@ -4,7 +4,7 @@ vars = {
 
     'chromium_git': 'https://chromium.googlesource.com',
     'totalpave_github': 'https://github.com/totalpave',
-    'totalpave_git': 'ssh://totalpave/opt/git/',
+    'totalpave_git': 'ssh://totalpave/opt/git',
 
 # REVISIONS
 
@@ -16,8 +16,8 @@ vars = {
 }
 
 deps = {
-    'src/' : Var('chromium_git') + '/chromium/src.git' + '@' + Var('chromium_rev'),
+    'src/' : Var('totalpave_git') + '/chromium-crosswalk.git@' + Var('chromium_rev'),
  #   'src/third_party/libpxc': Var('xwalk_git') + '/libpxc.git@' + Var('libpxc_rev'),
-    'src'/xwalk/': Var('xwalk_git') + '/crosswalk.git@' + Var('crosswalk_rev'),
+    'src/xwalk/': Var('totalpave_github') + '/crosswalk.git@' + Var('crosswalk_rev'),
 #    'src/xwalk/buildtools': Var('chromium_git') + '/chromium/buildtools.git@' + Var('buildtools_rev')
 }
